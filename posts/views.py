@@ -46,4 +46,6 @@ class PostCategoria(PostIndex):
 
         return qs
 class PostDetalhes(UpdateView):
-    pass
+    template_name = 'post/post_detalhes.html'
+    model = Post
+
