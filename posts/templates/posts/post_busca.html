@@ -1,7 +1,7 @@
 {% extends 'static/base.html' %}
 {% load humanize %}
 
-{% block titulo %}Busca{% endblock %}
+{% block titulo %}{{ request.GET.termo }} | Pesquisa | {% endblock %}
 
 {% block conteudo %}
 <!-- CONTENT -->
